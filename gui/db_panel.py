@@ -9,7 +9,7 @@ class DBPanel(QWidget):
         layout = QVBoxLayout(self)
 
         self.db_type = QComboBox()
-        self.db_type.addItems(["SQLite", "PostgreSQL", "MySQL"])
+        self.db_type.addItems(["SQLite", "PostgreSQL", "MySQL", "SQL Server"])
         self.host_input = QLineEdit()
         self.host_input.setPlaceholderText("Host (if applicable)")
         self.db_name_input = QLineEdit()
