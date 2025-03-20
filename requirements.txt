@@ -1,0 +1,7 @@
+PyQt6
+PyQt6-QScintilla
+psycopg2-binary
+mysql-connector-python
+transformers
+sentence-transformers
+faiss-cpu
